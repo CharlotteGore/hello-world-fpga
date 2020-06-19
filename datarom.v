@@ -20,19 +20,68 @@ module datarom(clk, row, col, digit);
       for (j = 0; j <= 32; j++) 
         bitarray[i][j] = 7'b0100000; 
     
-    bitarray[0][0] = 7'h48;
-    bitarray[0][1] = 7'h65;
-    bitarray[0][2] = 7'h6C;
-    bitarray[0][3] = 7'h6C;
-    bitarray[0][4] = 7'h6F;
-    bitarray[0][5] = 7'h2C;
-    bitarray[0][6] = 7'h20;
-    bitarray[0][7] = 7'h57;
-    bitarray[0][8] = 7'h6F;
-    bitarray[0][9] = 7'h72;
-    bitarray[0][10] = 7'h6C;
-    bitarray[0][11] = 7'h64;
-    bitarray[0][12] = 7'h21;
+    
+    bitarray[0][0] = 7'h47;
+bitarray[0][1] = 7'h6f;
+bitarray[0][2] = 7'h72;
+bitarray[0][3] = 7'h65;
+bitarray[0][4] = 7'h4f;
+bitarray[0][5] = 7'h53;
+bitarray[0][6] = 7'h20;
+bitarray[0][7] = 7'h76;
+bitarray[0][8] = 7'h30;
+bitarray[0][9] = 7'h2e;
+bitarray[0][10] = 7'h31;
+bitarray[0][11] = 7'h20;
+bitarray[0][12] = 7'h32;
+bitarray[0][13] = 7'h30;
+bitarray[0][14] = 7'h32;
+bitarray[0][15] = 7'h30;
+    
+    bitarray[2][0] = 7'h41;
+    bitarray[2][1] = 7'h72;
+    bitarray[2][2] = 7'h72;
+    bitarray[2][3] = 7'h65;
+    bitarray[2][4] = 7'h73;
+    bitarray[2][5] = 7'h74;
+    bitarray[2][6] = 7'h20;
+    bitarray[2][7] = 7'h74;
+    bitarray[2][8] = 7'h68;
+    bitarray[2][9] = 7'h65;
+    bitarray[2][10] = 7'h20;
+    bitarray[2][11] = 7'h63;
+    bitarray[2][12] = 7'h6f;
+    bitarray[2][13] = 7'h70;
+    bitarray[2][14] = 7'h73;
+    bitarray[2][15] = 7'h20;
+    bitarray[2][16] = 7'h74;
+    bitarray[2][17] = 7'h68;
+    bitarray[2][18] = 7'h61;
+    bitarray[2][19] = 7'h74;
+    
+bitarray[3][0] = 7'h6d;
+bitarray[3][1] = 7'h75;
+bitarray[3][2] = 7'h72;
+bitarray[3][3] = 7'h64;
+bitarray[3][4] = 7'h65;
+bitarray[3][5] = 7'h72;
+bitarray[3][6] = 7'h65;
+bitarray[3][7] = 7'h64;
+bitarray[3][8] = 7'h20;
+bitarray[3][9] = 7'h42;
+bitarray[3][10] = 7'h72;
+bitarray[3][11] = 7'h69;
+bitarray[3][12] = 7'h6f;
+bitarray[3][13] = 7'h6e;
+bitarray[3][14] = 7'h6e;
+bitarray[3][15] = 7'h61;
+bitarray[3][16] = 7'h20;
+bitarray[3][17] = 7'h54;
+bitarray[3][18] = 7'h61;
+bitarray[3][19] = 7'h79;
+bitarray[3][20] = 7'h6c;
+bitarray[3][21] = 7'h6f;
+bitarray[3][22] = 7'h72;
   
   end
 endmodule
